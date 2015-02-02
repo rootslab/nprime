@@ -1,0 +1,42 @@
+{
+  "name": "nprime"
+  , "version": "0.0.1"
+  , "description": "Nprime, a simple and fast naive module for testing/calculating primes on the fly."
+  , "homepage": "https://github.com/rootslab/nprime"
+  , "private": false
+  , "repository": {
+    "type": "git"
+    , "url": "git://github.com/rootslab/nprime.git"
+  }
+  , "keywords": [
+    "nprime"
+    , "primality test"
+    , "naive test"
+    , "prime number"
+    , "primes"
+    , "next prime"
+    , "previous prime"
+    , "util"
+  ]
+  , "author": {
+    "name": "Guglielmo Ferri"
+    , "email": "44gatti@gmail.com"
+  }
+  , "dependencies": {
+  },
+  "devDependencies": {
+     "dado" : ">=0.2.0"
+  }
+  , "main": "index"
+  , "engines": {
+    "node": ">=0.10.x"
+  }
+  , "scripts": {
+    "test": "node test/run.js"
+  }
+  , "license": "MIT"
+  , "readmeFilename": "Readme.md"
+  , "bugs": {
+    "url": "https://github.com/rootslab/nprime/issues"
+  }
+}
