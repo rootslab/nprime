@@ -62,12 +62,12 @@ var Nprime  = require( 'nprime' );
 Nprime#test : function () : Number
 
 /*
- * Get the next prime, use strict to specify > or >=,
+ * Get the next prime, use strict to specify (for default is >=).
  */
 Nprime#next : function ( Number n [, Boolean strict ] ) : Number
 
 /*
- * Get the previous prime, use strict to specify < or <=,
+ * Get the previous prime, use strict to specify < (for default is <=).
  */
 Nprime#prev : function ( Number n [, Boolean strict ] ) : Number
 ```
