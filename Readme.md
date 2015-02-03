@@ -48,6 +48,17 @@ var Nprime  = require( 'nprime' );
 ```bash
  $ node test/file-name.js
 ```
+###Run Benchmarks
+
+> run benchmark (find the first million of primes):
+
+```bash
+ $ cd nprime/
+ $ npm run bench
+ # or to run a single file
+ $ node bench/file-name-bench.js
+```
+----------------------------------------------------------------------------------------------
 
 ###Methods
 

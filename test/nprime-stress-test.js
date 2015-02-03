@@ -8,8 +8,8 @@ exports.test  = function ( done, assertions ) {
         , exit = typeof done === 'function' ? done : function () {}
         , assert = assertions || require( 'assert' )
         , np = require( '../' )
-        , fname = '/100K-primes.txt'
-        , data = fs.readFileSync( __dirname + fname )
+        , fname = '100K-primes.txt'
+        , data = fs.readFileSync( __dirname + '/' + fname )
         , primes = data.toString().split( '\n' )
         , plen = primes.length
         , i = 1
