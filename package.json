@@ -1,6 +1,6 @@
 {
   "name": "nprime"
-  , "version": "0.1.2"
+  , "version": "0.2.0"
   , "description": "Nprime, a simple and fast naive module for testing/calculating primes on the fly."
   , "homepage": "https://github.com/rootslab/nprime"
   , "private": false
